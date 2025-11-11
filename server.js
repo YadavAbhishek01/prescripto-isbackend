@@ -15,7 +15,7 @@ const app = express()
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ limit: '10mb', extended: true }));
 
-const port = process.env.PORT  || 5000
+const port = process.env.PORT  || 3000
 connectDB()
 connectCloudinary()
 // middlewares
